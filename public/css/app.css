@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,800;8..144,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400&family=Rubik:wght@300;400;500&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.slide-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards-container {
+  background-color: #1C1C1C;
+  color: white;
+}
+
+.box {
+  width: 16.6666666667%;
+}
+
+.jumbotron {
+  height: 450px;
+  background-image: url(../assets/img/jumbotron.jpg);
+  background-size: cover;
+  position: relative;
+}
+.jumbotron h2 {
+  position: absolute;
+  bottom: -30px;
+  left: 90px;
+  background-color: #0D7CEC;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 12px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+img {
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.product-container {
+  background-color: #0D7CEC;
+}
+.product-container #wrapper {
+  padding: 2rem 2rem;
+  display: flex;
+}
+.product-container #wrapper .product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 20%;
+}
+.product-container #wrapper .product .img-container {
+  display: flex;
+  margin-left: 5rem;
+}
+.product-container #wrapper .product .img-container img {
+  height: 5rem;
+}
+.product-container #wrapper .product .img-container h3 {
+  color: white;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 1rem;
+  margin-left: 10px;
+}
