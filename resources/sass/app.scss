@@ -1,6 +1,48 @@
 @import "partials/common.scss";
 @import "partials/variables.scss";
 
+// header css
+
+.header-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+    .logo {
+        img {
+            width: 50px;
+            height: 100%;
+        }
+    }
+
+    .header-nav {
+        .header-list {
+            display: flex;
+            align-items: center;
+
+            li {
+                margin-right: 1rem;
+                font-size: 0.8rem;
+
+                // .bottom-line {
+                //     color: $brand_color;
+                //     border-bottom: 2px solid $brand_color;
+                // }
+            }
+
+
+
+        }
+    }
+
+}
+
+// main css
+
 .slide-box {
     display: flex;
     flex-wrap: wrap;
@@ -81,5 +123,98 @@ img {
         }
     }
 
+}
+
+// css footer
+
+.list-menu {
+    background-image: url(../assets/img/footer-bg.jpg);
+    background-size: cover;
+    display: flex;
+    ;
+
+    .lists {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
+
+        div {
+            width: calc(100% / 4);
+            padding: 25px;
+
+            h3 {
+                color: white;
+                padding: 5px;
+            }
+
+            li {
+                color: grey;
+                padding: 1px;
+
+            }
+        }
+    }
+
+    .footer-logo {
+        margin-right: 15%;
+
+        img {
+            
+            object-fit: contain;
+            object-position: center;
+        }
+    }
+}
+
+h3 {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.footer-bottom {
+    background-color: $footer_color;
+
+    .footer-nav {
+        width: 70%;
+        margin: 0 auto;
+        padding: 0.5rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+
+        button {
+            color: white;
+            background-color: $footer_color;
+            border: 2px solid $brand_color;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            color: $brand_color;
+            margin-bottom: 13px;
+            margin-left: 45%;
+
+        }
+
+        .social-icons {
+            display: flex;
+            margin-bottom: 0;
+
+            li {
+                margin-right: 1rem;
+                font-size: 0.8rem;
+
+                // .bottom-line {
+                //     color: $brand_color;
+                //     border-bottom: 2px solid $brand_color;
+                // }
+            }
+
+
+
+        }
+    }
 
 }
